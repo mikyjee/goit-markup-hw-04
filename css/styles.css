@@ -133,11 +133,11 @@ address {
     display: flex;
     justify-content: center;
     align-items: center;
-
     background-color: #4d5ae5;
     border-radius: 50%;
-
     padding: 12px;
+    width: 40px;
+    height: 40px;
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
@@ -146,9 +146,10 @@ address {
 .social-link:hover,
 .social-link:focus {
     background-color: #404bbf;
+}
 
-    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+.footer .social-list {
+    margin-left: auto;
 }
 
 /* page */
@@ -193,12 +194,12 @@ address {
     color: #404BBF;
 }
 
-.nav-item:active {
-    text-decoration: underline;
+.nav-item.active {
+    text-decoration: relative;
     color: #404BBF;
 }
 
-.nav-item:active::after {
+.nav-item.active::after {
     position: absolute;
     left: 0;
     bottom: -1px;
@@ -232,21 +233,19 @@ address {
 
 /* address */
 
-.address {}
+.address-menu {}
 
 .address-list {
-    font-style: normal;
-    gap: 40px;
     display: flex;
     gap: 40px;
 
 }
 
 .address-item {
-    color: #434455;
-    font-style: normal;
     display: block;
+    color: #434455;
     padding: 24px 0;
+
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -396,6 +395,8 @@ address {
 .team-card-div {
     padding: 32px 0;
     text-align: center;
+    background: #fff;
+    border-radius: 0 0 4px 4px;
 }
 
 /* portfolio */
