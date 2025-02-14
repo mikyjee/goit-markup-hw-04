@@ -194,12 +194,12 @@ address {
     color: #404BBF;
 }
 
-.nav-item.active {
+.nav-item:active {
     position: relative;
     color: #404bbf;
 }
 
-.nav-item.active::after {
+.nav-item:active::after {
     content: "";
     position: absolute;
     left: 0;
