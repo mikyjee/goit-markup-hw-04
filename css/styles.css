@@ -380,8 +380,13 @@ h3 {
     margin-top: 8px;
 }
 
-.social-item {
+.social-item .social-link {
     gap: 24px;
+}
+
+.social-item a.social-link:hover,
+.social-item a.social-link:focus {
+    background-color: #31d0aa;
 }
 
 /* wait
