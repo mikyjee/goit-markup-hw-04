@@ -566,8 +566,8 @@ h3 {
     height: 16px;
 }
 
-.social-link:hover,
-.social-link:focus {
+.social-list .social-link:hover,
+.social-list .social-link:focus {
     background-color: #404bbf;
 }
 
