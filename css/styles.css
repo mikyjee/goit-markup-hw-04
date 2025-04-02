@@ -564,6 +564,10 @@ h3 {
     background-color: #31d0aa;
 }
 
+.header .social-link {
+    gap: 24px;
+}
+
 /* wait 
 .social-link {
     display: flex;
